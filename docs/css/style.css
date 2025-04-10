@@ -1,0 +1,63 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    /* Ensure footer stays at bottom if content is short */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Keep custom section title color if desired */
+.section-title {
+     margin-bottom: 1rem; /* Use Bootstrap spacing or adjust */
+     color: #0056b3;
+}
+
+/* Main Content Section adjustments */
+.content {
+     /* padding: 30px 0; */ /* Use Bootstrap padding classes like py-5 */
+     /* text-align: center; */ /* Use Bootstrap text-center class */
+     flex-grow: 1; /* Allow main content to expand */
+}
+
+/* Ensure dropdown menu items have correct color if overridden */
+.navbar-dark .navbar-nav .dropdown-menu .dropdown-item {
+    color: #333; /* Or your desired link color for dropdown items */
+}
+.navbar-dark .navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar-dark .navbar-nav .dropdown-menu .dropdown-item:focus {
+    color: #111; /* Darker hover color */
+    background-color: #f1f1f1; /* Light grey background on hover */
+}
+
+/* Optional: Style for carousel captions for better readability */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: .25rem; /* Slightly rounded corners */
+    padding: 1rem; /* Add some padding */
+}
+
+.carousel-caption h5 {
+    color: #fff; /* Ensure heading text is white */
+}
+
+.carousel-caption p {
+    color: #f8f9fa; /* Lighter text color for paragraph */
+    margin-bottom: 0; /* Remove default bottom margin */
+}
+
+/* Ensure carousel images cover the area well, might need adjustments based on image aspect ratios */
+.carousel-item img {
+    object-fit: cover; /* Cover the container, might crop */
+    object-position: center; /* Center the image within the element */
+    height: 400px; /* Maintain a consistent height, adjust as needed */
+    /* Note: Bootstrap's w-100 class already makes it full width */
+}

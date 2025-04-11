@@ -5,6 +5,20 @@
     box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+    width: 8px;
+
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #0177bb;
+    border-radius: 50px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #638b39;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;

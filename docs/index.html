@@ -38,54 +38,57 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <!-- Número de reservas - Versión desktop (oculto en móvil) -->
-                    <div class="d-none d-lg-block ms-auto me-4">
-                        <div class="d-flex align-items-center">
-                            <i class="bi bi-whatsapp fs-4 me-2 text-white"></i>
-                            <div>
-                                <p class="mb-0 text-white-50 small">Reservas</p>
-                                <a href="https://wa.me/573126201934" target="_blank"
-                                    class="text-white fw-bold text-decoration-none hover-grow"
-                                    style="transition: all 0.3s; font-size: 1.1rem;"
-                                    onmouseover="this.style.transform='scale(1.05)'"
-                                    onmouseout="this.style.transform='scale(1)'">
-                                    312 620 1934
-                                </a>
 
+                    <!-- Menú -->
+                    <div class="d-flex justify-content-center w-100">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    <i class="bi bi-house-door-fill me-2"></i>Inicio
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-briefcase me-2"></i>Destinos
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">San Andrés</a></li>
+                                    <li><a class="dropdown-item" href="#">Cartagena</a></li>
+                                    <li><a class="dropdown-item" href="#">Santa Marta</a></li>
+                                    <li><a class="dropdown-item" href="#">Medellín</a></li>
+                                    <li><a class="dropdown-item" href="#">Bogotá</a></li>
+                                    <li><a class="dropdown-item" href="#">Armenia</a></li>
+                                    <li><a class="dropdown-item" href="#">Manizales</a></li>
+                                    <li><a class="dropdown-item" href="#">Buenaventura</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="bi bi-gift-fill me-2"></i>Paquetes
+                                </a>
+                            </li>
+
+                        </ul>
+
+                        <!-- Número de reservas - Versión desktop (oculto en móvil) -->
+                        <div class="d-none d-lg-block ms-auto me-4">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-whatsapp fs-4 me-2 text-white"></i>
+                                <div>
+                                    <p class="mb-0 text-white-50 small">Reservas</p>
+                                    <a href="https://wa.me/573126201934" target="_blank"
+                                        class="text-white fw-bold text-decoration-none hover-grow"
+                                        style="transition: all 0.3s; font-size: 1.1rem;"
+                                        onmouseover="this.style.transform='scale(1.05)'"
+                                        onmouseout="this.style.transform='scale(1)'">
+                                        312 620 1934
+                                    </a>
+
+                                </div>
                             </div>
                         </div>
                     </div>
-
-                    <!-- Menú -->
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
-                                <i class="bi bi-house-door-fill me-2"></i>Inicio
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="bi bi-briefcase me-2"></i>Destinos
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">San Andrés</a></li>
-                                <li><a class="dropdown-item" href="#">Cartagena</a></li>
-                                <li><a class="dropdown-item" href="#">Santa Marta</a></li>
-                                <li><a class="dropdown-item" href="#">Medellín</a></li>
-                                <li><a class="dropdown-item" href="#">Bogotá</a></li>
-                                <li><a class="dropdown-item" href="#">Armenia</a></li>
-                                <li><a class="dropdown-item" href="#">Manizales</a></li>
-                                <li><a class="dropdown-item" href="#">Buenaventura</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="bi bi-gift-fill me-2"></i>Paquetes
-                            </a>
-                        </li>
-
-                    </ul>
                 </div>
             </div>
         </nav>

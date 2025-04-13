@@ -1,0 +1,19 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.hotel-info {
+    padding: 20px;
+}
+
+.price-details {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-left: 1px solid #dee2e6;
+}
+
+.price-details p {
+    margin-bottom: 0.5rem;
+}

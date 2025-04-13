@@ -56,8 +56,20 @@ body {
 .navbar-dark .navbar-nav .dropdown-menu .dropdown-item:focus {
     color: #111;
     /* Darker hover color */
-    background-color: #f1f1f1;
+    background-color: #fff;
     /* Light grey background on hover */
+}
+
+.nav-link {
+    color: #fff;
+    text-align: center;
+}
+
+.active {
+    background-color: #FFF !important;
+    color: black !important;
+    border-color: #fff !important;
+    border-radius: 15px;
 }
 
 /* Optional: Style for carousel captions for better readability */
